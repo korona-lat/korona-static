@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "buildId": "korona-5c15aeb0f803093b",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 371,
+      "sha256": "ELdRMFUSxnKdb2vT6s7aXNM0rxmn7dlD2r03GW68wz8="
+    },
+    {
+      "path": "README.md",
+      "bytes": 281,
+      "sha256": "QU/rtcNnlPleJO0SaM2oCI0xlZgY3hbBalLXmZn52OQ="
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 492,
+      "sha256": "p/mRqyvqNcFnjbV6KBIbuA4pTsESXFi8pLQlyICYed0="
+    },
+    {
+      "path": "assets/index-DOyCiNlp.js",
+      "bytes": 1992681,
+      "sha256": "Dn5jsIOkl+7ddd5wUofuUDn98K4GlCGiUfBAfco+h58="
+    },
+    {
+      "path": "controller/controller.api.js",
+      "bytes": 17101,
+      "sha256": "HSZhd+TOJumvVq9bXgasKJAhmsfd4e1BbWnvIYsh/bs="
+    },
+    {
+      "path": "controller/controller.inject.js",
+      "bytes": 6436,
+      "sha256": "R0S7Obz82+K6pD8mx2CrxcYkhHXaUIayvg7vzRck+4c="
+    },
+    {
+      "path": "controller/controller.sw.js",
+      "bytes": 4576,
+      "sha256": "gFMJclmT0xqOVAwgxXXcwXaobn/fxrnWnM9O6PlMc20="
+    },
+    {
+      "path": "embed.css",
+      "bytes": 1205,
+      "sha256": "xWlbS/KhayRURDpfbn0tdMPUAPQKz848EH6TxS7oWNI="
+    },
+    {
+      "path": "embed.html",
+      "bytes": 880,
+      "sha256": "uUVRMRgmQjFfAT0vcwlB7pTXXgM5WUz5leUeSs1Zf2Q="
+    },
+    {
+      "path": "embed.js",
+      "bytes": 11640,
+      "sha256": "co/mIMfXjgX7RuvFwESTdA0g72IFF9qhrdjIwkrNrXI="
+    },
+    {
+      "path": "embed.svg",
+      "bytes": 2999,
+      "sha256": "9NWqpBQOlVUjJLSew4ji+1NI7YOGFMBsJpG8NI79ECg="
+    },
+    {
+      "path": "scram/scramjet.js",
+      "bytes": 227109,
+      "sha256": "4Ra4rb2unp2b7mq9g3CZD6omFXlsLo/At7iUJTfA2S4="
+    },
+    {
+      "path": "scram/scramjet.wasm",
+      "bytes": 586279,
+      "sha256": "yHQMNApQZobZ5G/rgolKtxDPV80gVk0AHQrvBDEGYeg="
+    },
+    {
+      "path": "source/embed.ts",
+      "bytes": 6573,
+      "sha256": "Tmoa6dWcVSEk9RRKFPNKBPrLV/f36T+DzofBo6sPepk="
+    },
+    {
+      "path": "source/protocol.ts",
+      "bytes": 2978,
+      "sha256": "/cgDCzUP3228Yb1FBteK5MMnpFfgn3n2yDGM0TgeNbU="
+    },
+    {
+      "path": "source/sw.js",
+      "bytes": 1217,
+      "sha256": "aOiledHKAaQroPfDJ5EZzHOAimQman+asgkTYmQoolg="
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1217,
+      "sha256": "aOiledHKAaQroPfDJ5EZzHOAimQman+asgkTYmQoolg="
+    },
+    {
+      "path": "wisp.txt",
+      "bytes": 161,
+      "sha256": "qIFWKmOpRa9bhqTMGREEOZkMIIB9MIlln9q69jVdlc0="
+    }
+  ]
+}
