@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "buildId": "korona-5c15aeb0f803093b",
+  "buildId": "korona-f05419a0ff9fad33",
   "files": [
     {
       "path": "LICENSE",
@@ -14,28 +14,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 492,
-      "sha256": "p/mRqyvqNcFnjbV6KBIbuA4pTsESXFi8pLQlyICYed0="
-    },
-    {
-      "path": "assets/index-DOyCiNlp.js",
-      "bytes": 1992681,
-      "sha256": "Dn5jsIOkl+7ddd5wUofuUDn98K4GlCGiUfBAfco+h58="
-    },
-    {
-      "path": "controller/controller.api.js",
-      "bytes": 17101,
-      "sha256": "HSZhd+TOJumvVq9bXgasKJAhmsfd4e1BbWnvIYsh/bs="
-    },
-    {
-      "path": "controller/controller.inject.js",
-      "bytes": 6436,
-      "sha256": "R0S7Obz82+K6pD8mx2CrxcYkhHXaUIayvg7vzRck+4c="
-    },
-    {
-      "path": "controller/controller.sw.js",
-      "bytes": 4576,
-      "sha256": "gFMJclmT0xqOVAwgxXXcwXaobn/fxrnWnM9O6PlMc20="
+      "bytes": 738,
+      "sha256": "XvXycY4eQmaw2A9VyFmrcXpZLVnS+GwS3yT4SDlcMXg="
     },
     {
       "path": "embed.css",
@@ -44,33 +24,1918 @@
     },
     {
       "path": "embed.html",
-      "bytes": 880,
-      "sha256": "uUVRMRgmQjFfAT0vcwlB7pTXXgM5WUz5leUeSs1Zf2Q="
+      "bytes": 875,
+      "sha256": "b7fBXccogrVrJ5Dh+FDwAsYCui9K+r+WkU8lwJTR7Aw="
     },
     {
       "path": "embed.js",
-      "bytes": 11640,
-      "sha256": "co/mIMfXjgX7RuvFwESTdA0g72IFF9qhrdjIwkrNrXI="
+      "bytes": 11675,
+      "sha256": "hyTutNpihVCjyD7xk2YE9gdmdAyf3j8H/LnvM7VxoAk="
     },
     {
       "path": "embed.svg",
-      "bytes": 2999,
-      "sha256": "9NWqpBQOlVUjJLSew4ji+1NI7YOGFMBsJpG8NI79ECg="
+      "bytes": 2991,
+      "sha256": "A+TOl5VlK8RMcckjjd+wQxlyJvf0/pVIMbjhpQ3Ae0E="
     },
     {
-      "path": "scram/scramjet.js",
-      "bytes": 227109,
-      "sha256": "4Ra4rb2unp2b7mq9g3CZD6omFXlsLo/At7iUJTfA2S4="
+      "path": "emulator/LICENSE",
+      "bytes": 1070,
+      "sha256": "UUlxhBicPL7rMn1yizU4r7/VJEQp5HUUH4ND1V1QwZY="
     },
     {
-      "path": "scram/scramjet.wasm",
+      "path": "emulator/THIRD_PARTY.md",
+      "bytes": 805,
+      "sha256": "Q7pEDery3JtlsWGPkg678U3hh/mCUsAK7vAwn9hdFxI="
+    },
+    {
+      "path": "emulator/assets/bar.png",
+      "bytes": 1727,
+      "sha256": "HCwNYwxRN78LR3aJW22lL9LvYCCjmHX1orenCU7AWL4="
+    },
+    {
+      "path": "emulator/assets/base.css",
+      "bytes": 14467,
+      "sha256": "9VfWi8g/LjSZOHr0Qw+h6seNBrM56joM36/SbH37/10="
+    },
+    {
+      "path": "emulator/assets/base.js",
+      "bytes": 96851,
+      "sha256": "6GhnLb5IWMfU6DTFOHHt86Rlj8iITtXLIuiff+sMu08="
+    },
+    {
+      "path": "emulator/assets/charToCodeMap.js",
+      "bytes": 4899,
+      "sha256": "+nIRkwBLSwMZHl2qa5gKWuLjl4GOtL9e0WSDSHYZihY="
+    },
+    {
+      "path": "emulator/assets/controller_layout.png",
+      "bytes": 294469,
+      "sha256": "mB8jTZxkl34lo3yFjCS33oPEToPr23Q5ZfnQXtLPKGI="
+    },
+    {
+      "path": "emulator/assets/controller_layout.xcf",
+      "bytes": 892184,
+      "sha256": "aiUvS/uOv2Po2lNRcSgbQ5n88mDVM7co5KyQDA5h56g="
+    },
+    {
+      "path": "emulator/assets/icons/dropbox.png",
+      "bytes": 9126,
+      "sha256": "+1Q3JaiVOV9ttj9S91QqRpQNRKGQb2RDlUdlHo2eV4g="
+    },
+    {
+      "path": "emulator/assets/icons/googledrive.png",
+      "bytes": 16998,
+      "sha256": "PolbIKfeJTAdhr/Q2uOYlo1LrDOCAzaWzM8likz7acw="
+    },
+    {
+      "path": "emulator/assets/icons/icon102.png",
+      "bytes": 2548,
+      "sha256": "tQHZF7SA8SGgNrpNkS9XAgJRSrUWlGTkkmLjxifaOMg="
+    },
+    {
+      "path": "emulator/assets/icons/icon204.png",
+      "bytes": 3069,
+      "sha256": "gT/9Zf7ED2sMM2q9fTQV4ZxIIntVyRi1a1XqTuJhfW0="
+    },
+    {
+      "path": "emulator/assets/icons/iconm128.png",
+      "bytes": 2453,
+      "sha256": "vt90qqiRVoGdQKwo656Rs9zLF17cuIX2WyPl2Oc2elQ="
+    },
+    {
+      "path": "emulator/assets/icons/iconm256.png",
+      "bytes": 4166,
+      "sha256": "huv4oX4D+7gW7QsFKjdy1N3aPA02HPIdlJoKHKMaOR0="
+    },
+    {
+      "path": "emulator/assets/icons/iconm512upscaledm256.png",
+      "bytes": 13737,
+      "sha256": "n9cb3VUlxl3SogisjZDzyV8zWZDYz7FSG7INFpbvJzM="
+    },
+    {
+      "path": "emulator/assets/icons/icont256.png",
+      "bytes": 4611,
+      "sha256": "j4cvZD1NEnw+DwJ41Iv1TymSIGO3SXZm2QK7avHrKM0="
+    },
+    {
+      "path": "emulator/assets/icons/onedrive.png",
+      "bytes": 7701,
+      "sha256": "4O/1PfjReFC/jNIuJ24V4EwYuCBIhEkEp0gOfk4p6tc="
+    },
+    {
+      "path": "emulator/assets/info.json",
+      "bytes": 1492,
+      "sha256": "oyeXWiiE+CBq/+InYzMaDmY0dlMKcYb+8WFHrd8ublM="
+    },
+    {
+      "path": "emulator/assets/jswindow.css",
+      "bytes": 1186,
+      "sha256": "ZM9/W1O8od6UhuzO8JEJAnC2LwMUa6ZcOjh+a1EW1SA="
+    },
+    {
+      "path": "emulator/assets/jswindow.js",
+      "bytes": 5647,
+      "sha256": "1JBSs+gcMWtCHZJk505TrBM6UVf27D4z875brjc+5+E="
+    },
+    {
+      "path": "emulator/assets/md5.min.js",
+      "bytes": 3735,
+      "sha256": "d1ufMgv3Zga6IwMc+y6+AXpyzQqGJidDJc40fLdZfUs="
+    },
+    {
+      "path": "emulator/assets/terminal.svg",
+      "bytes": 7531,
+      "sha256": "93s2MrtUCfaQbei4qYHhKV9w8qhpwTajEDdfivzqNc8="
+    },
+    {
+      "path": "emulator/assets/zip-2.4.7.min.js",
+      "bytes": 83922,
+      "sha256": "pDK5UZ2AaOuZ/68gzv2AlYmkvCzlpOH8uvXWUUckuxw="
+    },
+    {
+      "path": "emulator/boot.mjs",
+      "bytes": 3222,
+      "sha256": "Q16QcIkKuIGI8rOXg6qzuoDhMMVlTu3RTZed+o37H0M="
+    },
+    {
+      "path": "emulator/bundle/assets/menu_widgets/msg_queue_icon.png",
+      "bytes": 1353,
+      "sha256": "RDppb5PvwNzI692zy0PrLpdXKLybQW6HKNKsL/MuGwY="
+    },
+    {
+      "path": "emulator/bundle/assets/menu_widgets/msg_queue_icon_outline.png",
+      "bytes": 7000,
+      "sha256": "VBs/bEmdOTPcLqyB39DEs9gy2XZWhzTZIRD4zT4AgCw="
+    },
+    {
+      "path": "emulator/bundle/assets/menu_widgets/msg_queue_icon_rect.png",
+      "bytes": 1028,
+      "sha256": "6X+MIZIhPz3R9rcRT+LYMKFo8+Q/3zzgbotyk6Ka5i0="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/bold.ttf",
+      "bytes": 2691456,
+      "sha256": "hOXGvpS5ACElZW8/U+P/+Pt6e7yLEVtqS2bs8b/MEBo="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/cursor_border.png",
+      "bytes": 242,
+      "sha256": "U0gobVtsvC3NKKVtdaaUMRji/YVvhfqi/j9yUVfW5ig="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/dark/check.png",
+      "bytes": 1134,
+      "sha256": "jhZE2Nmt9o/E5+USRo0drefLeg9ZGjluAg1pIl5TG2M="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/dark/cursor_noborder.png",
+      "bytes": 498,
+      "sha256": "Kb50qSqH2uk7NKLGWBT4OKWULkc0nufGPYcwKUpqpnQ="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/dark/cursor_static.png",
+      "bytes": 778,
+      "sha256": "jksalRz/eYgzKXZk63a27x9sLG4OIv95DTiJ/u4HW1A="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/dark/switch.png",
+      "bytes": 642,
+      "sha256": "bSY9tjhT0V778AqhpxjmuD3vren8kCf+Ldtn8/eO11I="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/gruvbox_dark/check.png",
+      "bytes": 1134,
+      "sha256": "josIAUEwMGFohnZi76aZ2vb3rYtzfRreut8gV4iBwWY="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/gruvbox_dark/cursor_noborder.png",
+      "bytes": 498,
+      "sha256": "0eOhVORbIFLuoHdCKZF5xm2TzCAk/XtErXYuJQUmLmo="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/gruvbox_dark/cursor_static.png",
+      "bytes": 1062,
+      "sha256": "o59TXqOSn7mqLy+YYFWL0dRTZhMkVABN3ZRNadu/WtU="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/gruvbox_dark/switch.png",
+      "bytes": 642,
+      "sha256": "bSY9tjhT0V778AqhpxjmuD3vren8kCf+Ldtn8/eO11I="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/light/check.png",
+      "bytes": 1131,
+      "sha256": "6ljnw0MWUnx2OOd57FkDJ8zD0TFS6hDcZbu0C7wd8m0="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/light/cursor_noborder.png",
+      "bytes": 474,
+      "sha256": "Yg5+qWmajhQBUNHKyanSyC6/lH7YtJcxB94J4FLGa2M="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/light/cursor_static.png",
+      "bytes": 778,
+      "sha256": "6FPLdUVnJETZ2PcY/dNzJOhT7w/vtNDMFu85JEBidPU="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/light/switch.png",
+      "bytes": 741,
+      "sha256": "TLWkSSlQTGVyPMtLgMBIwg0TrkVdAG8J02tgo5o+4uw="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/nord/check.png",
+      "bytes": 1134,
+      "sha256": "j67uhUTnoCTimdNDFLlnvzBbeDGzUed2ntTlp/UqGUs="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/nord/cursor_noborder.png",
+      "bytes": 113,
+      "sha256": "uyEI1iUxcqVvJVszFicH1L8BG9UG6FEOTt18WUMUr28="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/nord/cursor_static.png",
+      "bytes": 1009,
+      "sha256": "Nx/ZzM/tWJZMwGWzpQR1hEed4q2dCVFvev952ZlLKt4="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/nord/switch.png",
+      "bytes": 642,
+      "sha256": "bSY9tjhT0V778AqhpxjmuD3vren8kCf+Ldtn8/eO11I="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/retroarch.png",
+      "bytes": 1077,
+      "sha256": "z0fWL6yJuJiepyW8ld/ga0/8VUs/QJQRqIRQXNBVpZc="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/add.png",
+      "bytes": 1086,
+      "sha256": "wM7AcgzBBy4pjshPONPeNs6YPky+qWjW8DYmlzeVvLs="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/favorites.png",
+      "bytes": 621,
+      "sha256": "GyTtlLnf+gIi3mqOdMkWZ5Z6il1UM3lW0Uq3q1OiZlE="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/history.png",
+      "bytes": 984,
+      "sha256": "YBDvBKrtIXdNpB3T/su46goOIAHCkuptuiIGsy2Otto="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/image.png",
+      "bytes": 393,
+      "sha256": "OYer3R4PwHOaxJz6x0oae+2vNklTX1IdJU+2+CijF/U="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/music.png",
+      "bytes": 466,
+      "sha256": "FC4L1Ehcz0lxfJd649iUyiARL5+M9BeItvdDexgA3tk="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/netplay.png",
+      "bytes": 897,
+      "sha256": "YsOO4xZ1XiLDWT7UqJ6Ayv7IHhLfYlHaU0crpeSYHt8="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/retroarch.png",
+      "bytes": 747,
+      "sha256": "goJszwcjlLIZd47hc6UaEwUDPiuYpgxR8iCpNxygiTk="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/settings.png",
+      "bytes": 1085,
+      "sha256": "FMdHOzSLMKTRRsZ+dBUHghTnTCwN+Uk/sFfh1S5xeKI="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/png/sidebar/video.png",
+      "bytes": 279,
+      "sha256": "5pBYT9M4s0Utyl8KdWfQb7/tYb4h1baecVGvyvWBr2E="
+    },
+    {
+      "path": "emulator/bundle/assets/ozone/regular.ttf",
+      "bytes": 2569576,
+      "sha256": "0/CwjohzX8DgjJxEhvz01JYBDRU/rmU3Shs4PC6mxpQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/Libretro - Pad.png",
+      "bytes": 2944,
+      "sha256": "jpD5dnVmyoJFI/2GGyxajR41lfKVo41SGzpZq+lG0Hw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/achievement-list.png",
+      "bytes": 2342,
+      "sha256": "/3sEzI3baoVSN5CZmkRSuski2m6y5JHEQByPquy5IUI="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/add-favorite.png",
+      "bytes": 2414,
+      "sha256": "7NixTzohfuWzCryNqBlW/mmyP9Uu23mUUTvBuFgjcME="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/add.png",
+      "bytes": 4552,
+      "sha256": "x6BkO1yV0LWIW0ZYcYCO4omsZwTJcj4RNP0LWEbDa4g="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/arrow.png",
+      "bytes": 421,
+      "sha256": "j4z95ZrwkLwAJ8Me5+z1j/gweTY928IEU5tdEGEXXsE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-20.png",
+      "bytes": 824,
+      "sha256": "evQc271TK4Ie2LGZE0SVLk/BjEl+dcFd5IbPquOEdSk="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-40.png",
+      "bytes": 831,
+      "sha256": "qEu4lIL/VhX4Me9BIqZakyP7VuVJnmn9CSqvZUWWVG4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-60.png",
+      "bytes": 830,
+      "sha256": "IIzXbog5cQDG/A/o07TinGYy6XIDmQfyfnmk9tXdWnE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-80.png",
+      "bytes": 831,
+      "sha256": "U/ryX3+hPWBzAspqrID5dfjuRu8UNrItm5RfmJv7owg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-charging.png",
+      "bytes": 1034,
+      "sha256": "zmyvLpgqJrQ2vjIfSXRV0YzA10gW9Qz4ylAnfR4qTpw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/battery-full.png",
+      "bytes": 823,
+      "sha256": "1PcMu0FYgyiTN6ix9ptELC8cCD8GLJWrDKGz9ZYSDcY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/bluetooth.png",
+      "bytes": 2733,
+      "sha256": "Iof7hEg+Hvk47d930+j1b8dzRoDKrzfridsCVqGDuic="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/clock.png",
+      "bytes": 1510,
+      "sha256": "nCY5l9ESbN08TZrMvO26A9BwyrvHFU3HkK9sELSMGrE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/close.png",
+      "bytes": 1058,
+      "sha256": "xFF46uA6AgBgsh+QB5ILT6kTDN5NVY3TpWMoEK/rvlo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-cheat-options.png",
+      "bytes": 2490,
+      "sha256": "49rhGoWkJf7N4vx6B2tcqR10o1jJKZ3yN2yezPQN11U="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-disk-options.png",
+      "bytes": 2752,
+      "sha256": "W76zlHMMn7Nw53T3gf2LZSiL/JBITil4eBL8QWDJO1U="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-infos.png",
+      "bytes": 2850,
+      "sha256": "lMb6qOkqLapvt5Im5S1usccgpoAV5u3VP11V+h0hL/A="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-input-remapping-options.png",
+      "bytes": 2944,
+      "sha256": "jpD5dnVmyoJFI/2GGyxajR41lfKVo41SGzpZq+lG0Hw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-options.png",
+      "bytes": 3242,
+      "sha256": "hrmYgJ6LqkxLv32B3lMdVUZp4hKpvwmkEwAz9/LDzRg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core-shader-options.png",
+      "bytes": 2434,
+      "sha256": "fvnwxpmNkm/UzVIcpt1kWoYAkjGJWCSXymVLWpP6XFY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/core.png",
+      "bytes": 2722,
+      "sha256": "bVFt8Kn6uCuIy349Sd5taxEZUHUskzDMm+iqFKNieY8="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/cursor.png",
+      "bytes": 3642,
+      "sha256": "+O299Ni3ouqxFhHu9NKASRHm9uHbkk3qevtO8LPxT0s="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/database.png",
+      "bytes": 1682,
+      "sha256": "bysbbMabe5a1K0/4ZyMSCokw4FfnWhNzyiWdyAlL3ao="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/dialog-slice.png",
+      "bytes": 839,
+      "sha256": "MFi8BB7X2dYfdfspXfLYAEuM5LGQj4yHVfz/Kz9NtGE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/disc.png",
+      "bytes": 2770,
+      "sha256": "KuQTPibsE6OWRjaQT1KpgR1JSxTDPnAoCqgDnKiKAdg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/favorites-content.png",
+      "bytes": 2414,
+      "sha256": "7NixTzohfuWzCryNqBlW/mmyP9Uu23mUUTvBuFgjcME="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/favorites.png",
+      "bytes": 4040,
+      "sha256": "MjubICM8tJj757diJIbF/OsuQzIP+T2RufOVmsJE6m0="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/file.png",
+      "bytes": 739,
+      "sha256": "kev9israzG1V5ti5i1jsddysHsOdLENOSNoXJzZ0+lQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/folder.png",
+      "bytes": 1211,
+      "sha256": "KiwmPo2iFMX8QcPcmd4vHA/iowneWt+EKHQseQZDTVk="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/history.png",
+      "bytes": 5646,
+      "sha256": "GARhjThbkIk+xoNM4rLPXW7Yp5EVOsJZ+LgOsGK64uo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/image.png",
+      "bytes": 1332,
+      "sha256": "jqdIxMv3k7G2euWuBusymI8eTJ15FO3uFM2dmyEYnGU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_ADC.png",
+      "bytes": 1006,
+      "sha256": "8olZxBemDpJOMMuIpA+9XSoYMklMMFr7Q2q+EMguGYU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_BIND_ALL.png",
+      "bytes": 1833,
+      "sha256": "qn6RgDjF8occRgPlBI+SxZUxsvUXPfCM9+SP5zP4RQ8="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_BTN-D.png",
+      "bytes": 2727,
+      "sha256": "hx8YCcoPQgWbMmbsGvIFWvrixfPe1QX6ANxDXcsQ49I="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_BTN-L.png",
+      "bytes": 2600,
+      "sha256": "Qrx4mjQMOkdkiWkF3d10CQG9hAZhKlFE1oNpAh46Gv4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_BTN-R.png",
+      "bytes": 2626,
+      "sha256": "PZq6GZypHck4QCPiDK477IoSaMd7dnxXzCaWMIOFQ60="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_BTN-U.png",
+      "bytes": 2653,
+      "sha256": "Gsr7MpMZrsbDfFJOoIw+M8lDjPBdzHiI2cLMy5olAfg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_DPAD-D.png",
+      "bytes": 899,
+      "sha256": "YSXh6mgP6rNx0xM3oNNl+RuRpe455UUCaKrr8C8LVDg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_DPAD-L.png",
+      "bytes": 854,
+      "sha256": "yPdfXKO2ebkHXId9Uim6qYfPDobbz0YND5Zl28gKmFQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_DPAD-R.png",
+      "bytes": 906,
+      "sha256": "X6YOAtjbXJc9oxkLkV3ZCuMwUB1wd6YivpNdS+SRcFw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_DPAD-U.png",
+      "bytes": 861,
+      "sha256": "/8n93tRk2aJ6IYH1WLFPfmf33aVBR9RMdlMCvCgotKM="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_LB.png",
+      "bytes": 2877,
+      "sha256": "iof7tp76fdr8SFdzRnZ9zA4tmyDyJpd+qb5FscDUSGA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_LGUN.png",
+      "bytes": 2530,
+      "sha256": "Gm5ra5nKSqSmRPenUQ5pUKovCJFuWOSfesn4ixuxe3k="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_LT.png",
+      "bytes": 2923,
+      "sha256": "brQxD0uZqxHl5pzIhu4ATK1lyLozs6i0U8J63X64SNY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_MOUSE.png",
+      "bytes": 1862,
+      "sha256": "eAuehSbVwrjEdZKxJCOLfqvMi+/t7jcfrqQP+6yOt9M="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_RB.png",
+      "bytes": 2701,
+      "sha256": "qn9yXAnI4miH/9WseDcu0iVvhdU1QPyGNl5uesN8vT0="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_RT.png",
+      "bytes": 2917,
+      "sha256": "pJS9zVPaeyXq1kgDTZIa89h6bxbD6hNje3h68n5unUo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_SELECT.png",
+      "bytes": 981,
+      "sha256": "9pLhD5qoBjRgp8FftR0jceQ3joYzVFmIkdKJR1paKtU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_START.png",
+      "bytes": 955,
+      "sha256": "HHXYjybKG+kgRCVp6sgcX7sDUTQJlMCmqLIrrSTs3l8="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_STCK-D.png",
+      "bytes": 2597,
+      "sha256": "JO+lkHA8wibPDg8JfsuGCAJHh2qoN5nwQZVvktgKVpw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_STCK-L.png",
+      "bytes": 2393,
+      "sha256": "wsV7HgNKc+rDpb53pMpAuv0bhi1NYFkv6FYUZ+KtU5c="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_STCK-P.png",
+      "bytes": 1050,
+      "sha256": "GC3mOIFbPkacRPT1JV+3zguDTJLB6As+nZEoDZjqzSc="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_STCK-R.png",
+      "bytes": 2478,
+      "sha256": "QHX/adeRRJfG3LeRJX2y1KZxce5kldipUJy6wEjS5QA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_STCK-U.png",
+      "bytes": 2510,
+      "sha256": "l6U3Wvx4edaRJ8ldWAJzFoPCq8uFwj4FIXe/fDpKTBY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/input_TURBO.png",
+      "bytes": 1246,
+      "sha256": "QVu1FQIMQq7oa8Ayd9CtVhdtbPaCehjbfAMYMiFSKv0="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/key-hover.png",
+      "bytes": 1409,
+      "sha256": "LBV5IefJ5Neti9wtPQFpC6AnNLRYtSHHxIKLUCHuuRM="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/key.png",
+      "bytes": 1368,
+      "sha256": "bTTBP/pnX9Z04To+IzUdvPKbKtzECDPnvr7PnsWKmHk="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/loadstate.png",
+      "bytes": 1466,
+      "sha256": "IckK7WLdlVWD5Wb+uJK1vPUkVnjUcJbK738bxAstf4A="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_achievements.png",
+      "bytes": 2342,
+      "sha256": "/3sEzI3baoVSN5CZmkRSuski2m6y5JHEQByPquy5IUI="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_add.png",
+      "bytes": 553,
+      "sha256": "7rb+5oQ3tGvOETJd7Jzr8d+qSYDmwlKWUooh+F//aVI="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_apply_cog.png",
+      "bytes": 2898,
+      "sha256": "fkNXrF7mk8PX5sX4Ps7U4LNiW6d+QKC6HUBIBReBzeM="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_apply_toggle.png",
+      "bytes": 3706,
+      "sha256": "DZH8MCJ5h9wujbCTDJdiT+wUAyIj11JGqK4p60SVsKw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_audio.png",
+      "bytes": 1647,
+      "sha256": "7c0+VE79Sw2XKCuZYgl6Zl4WSS7ns0DPCCag8J8fxdo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_brightness.png",
+      "bytes": 2119,
+      "sha256": "ZQWpafaGP+T/V2p7xEVdYAQkPxLJIiGEGpNVEp5mymE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_check.png",
+      "bytes": 1895,
+      "sha256": "LiSZawZUSQkG5yBf793MtaNNC8bSV44Fzm62zQyZKzQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_drivers.png",
+      "bytes": 2770,
+      "sha256": "P5sqPLjSyQm6A5iH20wom1c/kBS+o8iVOtyZqQ7WT6I="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_exit.png",
+      "bytes": 1058,
+      "sha256": "xFF46uA6AgBgsh+QB5ILT6kTDN5NVY3TpWMoEK/rvlo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_frameskip.png",
+      "bytes": 1766,
+      "sha256": "xhqTw+nYy2h1ObZRm7U6d6TOrXRKeeKAnu7mRDS3OXY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_help.png",
+      "bytes": 3410,
+      "sha256": "MBcPMBXuvzh8HriBMN1dEt6C9qbgQbfbEiOEYZILN04="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_info.png",
+      "bytes": 2850,
+      "sha256": "lMb6qOkqLapvt5Im5S1usccgpoAV5u3VP11V+h0hL/A="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_latency.png",
+      "bytes": 3521,
+      "sha256": "lUM9quA7cLwViz6+naSmGrODph0yblx69MhICmtmfIU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_log.png",
+      "bytes": 1192,
+      "sha256": "rmjVvGiInI4f2OX6bW7go3+HskAOcfRhdEPJ6Nrg8xA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_mixer.png",
+      "bytes": 845,
+      "sha256": "YGHBpnJG/dQW+gxzPEXMWnFxjo3b6VVq5CzTFWl5Ljw="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_network.png",
+      "bytes": 2941,
+      "sha256": "Z+W9RxCJawOKsFgkkbHfnalOurVwNCiw5GkpiIS/5cE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_notifications.png",
+      "bytes": 854,
+      "sha256": "wwGSVyEMxuGRdidAgCjA9f+RNu2VeZxoZLTgjHj1xuQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_osd.png",
+      "bytes": 1367,
+      "sha256": "T5mUGAxl+OpI+DRLSRgwJhVjeLf/XpS/0UNW7MtPPUs="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_overlay.png",
+      "bytes": 1352,
+      "sha256": "gwPm32vrDbIVwHpBApGtDbm13/LEiAtDGt7gkPL7IxI="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_override.png",
+      "bytes": 1083,
+      "sha256": "gSMM4WHNHt6Aw8yzmwYQ91Ks/7n3NNMP1nTnEgLAwQg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_pause.png",
+      "bytes": 521,
+      "sha256": "DHiQrBBBG6WKH19/9UcxnaKqasSYL/Hmh2+q/yBjLgA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_playlist.png",
+      "bytes": 1101,
+      "sha256": "pJVsXBD1Pluy17wWzYGzLC8KhfVbo+p+YJWT4vN5WBo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_power.png",
+      "bytes": 1357,
+      "sha256": "4oNXEGoP3Jsyh53iD3j1O00rgiF11qbb+pV9F/AkL0A="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_privacy.png",
+      "bytes": 2719,
+      "sha256": "FuUlbl16c/eirTvpEPMjZlNF3bTHao1rZxQDCXzatGo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_quickmenu.png",
+      "bytes": 2005,
+      "sha256": "eZXoFqrE9WnE6ZI2xLRrNcw/ISaQKdAsk65zTF6RbTY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_record.png",
+      "bytes": 2544,
+      "sha256": "UTA+Fd6AlZgGs/cnKvRiyy7KMgarlC6rgUyM/5dhSUU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_rewind.png",
+      "bytes": 1771,
+      "sha256": "/s+TR0gnCMSIVMXiACAfkMRP5zdxQf4o+wgO2/Gw9rU="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_saving.png",
+      "bytes": 1462,
+      "sha256": "u0F1coexPAIzTWukcj21neD01aKAKXU/h9MBZgyFjRE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_shutdown.png",
+      "bytes": 2956,
+      "sha256": "PPQNvnWBwv1siOOCEcYOOVKlCNN1+uzr+A9tLBTTx2Q="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_stream.png",
+      "bytes": 3738,
+      "sha256": "5EPC7c1SHveP7RiCa5TDqCZ3bLMdYXm2W90TjmWWbms="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_ui.png",
+      "bytes": 1196,
+      "sha256": "plOoDw6JbfMz+K8+ZoZR8v5op7BfMHskVlEhgo1agTA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_updater.png",
+      "bytes": 4063,
+      "sha256": "ABy9bvqDI304u11VLCvw2krX/3GjHDeE69AI5mgUJc8="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_user.png",
+      "bytes": 2220,
+      "sha256": "eNgSmgISvFD60egzueP0n7tDKJNLe8lIKIo7Ejo8Zn4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/menu_video.png",
+      "bytes": 913,
+      "sha256": "dQh3zJcP6SUIpBDswse5w7HOxI6olNu4yV8vt/S6Ugg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/movie.png",
+      "bytes": 913,
+      "sha256": "dQh3zJcP6SUIpBDswse5w7HOxI6olNu4yV8vt/S6Ugg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/music.png",
+      "bytes": 1625,
+      "sha256": "5O5y3GrBsT4cJ0g5lh1POLcgtTe//u3oksJs23Jes+I="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/musics.png",
+      "bytes": 3674,
+      "sha256": "ognLx3PlsEwlVCOAu3f3Hg3HuvCuIFg4+E4e7jB5hgM="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/off.png",
+      "bytes": 2438,
+      "sha256": "VQK2tDGSpQdaL23+3S1SK7KHfi7VCYKBVuvL2/CI7f8="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/on.png",
+      "bytes": 2188,
+      "sha256": "Tqn4xka33H8JKDK/2lxH/6SKzC4Zdz/+3BmdgmFCDH4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/pointer.png",
+      "bytes": 3754,
+      "sha256": "w7qSEgvj/nYu+Xo/iqzW5bXjeHjrpDUhg4EFGO5M0VQ="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/reload.png",
+      "bytes": 3096,
+      "sha256": "TEGU0ZmFWwj/nfumqafG2I5Uugky3dr0jZnJRa05ZPo="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/rename.png",
+      "bytes": 2436,
+      "sha256": "LnW/+7r5d9LvgUr+d1dpGb0kcOO22lMz2Gm2kkJ0ea4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/resume.png",
+      "bytes": 1515,
+      "sha256": "w64QKRNhpBqK3CCsUT/M1gBQTMtkWrHG6O3dIeGW0zE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/retroarch.png",
+      "bytes": 4068,
+      "sha256": "bhUXTeLKg+qszMWzuh121kyKGBGCpzgVofoH7FdngnY="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/run.png",
+      "bytes": 1444,
+      "sha256": "vH5BRQCyFdBiICTBACs8hCOSfT+CVbaeFNnvjXXaFwg="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/savestate.png",
+      "bytes": 1462,
+      "sha256": "u0F1coexPAIzTWukcj21neD01aKAKXU/h9MBZgyFjRE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/screenshot.png",
+      "bytes": 2463,
+      "sha256": "MH8Y/2/YCa+rlrGGCh97R6zJjRb3/YcTLmnJDA4DwgA="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/setting.png",
+      "bytes": 3163,
+      "sha256": "XQjL2h5BlXGj+H3naEQDu2o5/7dZbmS4jZifD0+vo0Q="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/settings.png",
+      "bytes": 4831,
+      "sha256": "ovTA35zf4mbNzikf5UxMDvcTLm0jeJqxLp559T6oQQ4="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/subsetting.png",
+      "bytes": 2417,
+      "sha256": "45vSNngLfZi0qBPU0QP4TWhEC9NdEpL5o1+VHv8PdmI="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/undo.png",
+      "bytes": 2739,
+      "sha256": "eIwWuTPSE3arirI741Y2DQUWL/GdJugl5DQJSzVVn/c="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/wifi.png",
+      "bytes": 2941,
+      "sha256": "Z+W9RxCJawOKsFgkkbHfnalOurVwNCiw5GkpiIS/5cE="
+    },
+    {
+      "path": "emulator/bundle/assets/xmb/monochrome/png/zip.png",
+      "bytes": 572,
+      "sha256": "Rb2pUZp5Bn8AynXwdwNjvBG4/bze2Nt7d9i+VZzRiMc="
+    },
+    {
+      "path": "emulator/bundle/indexedfiles-v2.txt",
+      "bytes": 14914,
+      "sha256": "ph3ZvIjnkebmwmaT7ttCSxcYfF9aewOesYjm8wGTiJw="
+    },
+    {
+      "path": "emulator/bundle/indexedfiles.txt",
+      "bytes": 5399,
+      "sha256": "yktPT3lrQ2xZuAyAc/x1jtxT9tSQUnhsESVv20uRAgo="
+    },
+    {
+      "path": "emulator/bundle/indexer.py",
+      "bytes": 402,
+      "sha256": "cAhDumVr5Yzp64OTTAkW+5VNvlxuq8W0OHIcnAeH2Qw="
+    },
+    {
+      "path": "emulator/bundle/shaders/retroarch.glslp",
+      "bytes": 313,
+      "sha256": "vensfRrO2nRGUJ+/cIY3VFMPEFhTPGyxJAyxBqriyCU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/aa-shader-4.0-level2.glslp",
+      "bytes": 345,
+      "sha256": "4+c/qt39bN6IfJTYZvqfGhcOzevEnX1ADhfX5tZmEsk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/aa-shader-4.0.glslp",
+      "bytes": 184,
+      "sha256": "/e2wvBzkWSoKGYrbBqhbiW/01Sd3cYSHlv3DXoXuiDk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/advanced-aa.glslp",
+      "bytes": 169,
+      "sha256": "9U6EJX2HAkpS7zZaZR+1trVvlJjwTwVHKXfbm1xGJy0="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/fxaa.glslp",
+      "bytes": 63,
+      "sha256": "2wzYmNIMAbqnuJ33lSZF9lb+PlRODUlXbPYQiv9qFIE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/reverse-aa.glslp",
+      "bytes": 104,
+      "sha256": "ZlKAlHN2VMmgVJhrfd8S8IMzeyG55WPlDNU6fXGx2e8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/aa-shader-4.0-level2/aa-shader-4.0-level2-pass1-noblend.glsl",
+      "bytes": 5153,
+      "sha256": "BIRV99s3WJZGFSfvt/guTW8Z2QyoF5ywSC2Q+sT1P5o="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/aa-shader-4.0-level2/aa-shader-4.0-level2-pass1.glsl",
+      "bytes": 4839,
+      "sha256": "nSExYSr5sUOiG0h9eqW8m5JZntuWHE+9W1CwYpJXlfs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/aa-shader-4.0-level2/aa-shader-4.0-level2-pass2.glsl",
+      "bytes": 3581,
+      "sha256": "hqN7zfwjbAN9PeBbY5zOLirgHqcVxXmFjbiLDC1zW+E="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/aa-shader-4.0.glsl",
+      "bytes": 4122,
+      "sha256": "MwwD02S9d90YX92rZA00HgwX5GipB9IhdXG88Ar6rWo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/advanced-aa.glsl",
+      "bytes": 4937,
+      "sha256": "Heb4X/nw+BkMPnB3+lxbevaXVEPwqWDa0hajUIF8lLs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/ewa_curvature.glsl",
+      "bytes": 7759,
+      "sha256": "juwZoklS1gC6Ge0Omuvmibrfer0CssdjUWdDP4ll3jY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/fxaa.glsl",
+      "bytes": 10914,
+      "sha256": "w042D7Hi2IZWg7VqkuwmLe+mtLzPezgBP3uZHyOp0kE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/reverse-aa-post3x/reverse-aa-post3x-pass0.glsl",
+      "bytes": 6700,
+      "sha256": "SxSujeDm1CEHNiFiWm93Ea9tPHDXKe3qXIQzOBVlKPY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/reverse-aa-post3x/reverse-aa-post3x-pass1.glsl",
+      "bytes": 6699,
+      "sha256": "t10TUJwCzoRFPsCE60X5918wotXD6aluWX4Oo7b/lT4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/anti-aliasing/shaders/reverse-aa.glsl",
+      "bytes": 4899,
+      "sha256": "Gj7otHGMz57SoAceNdeAKU35WzsLBTDIyydlQ4zmXTI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/bilinear.glslp",
+      "bytes": 56,
+      "sha256": "KxSNbadqRqzLyM98bfGQF8A+V9wZD/oEyRM22TBwOAk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-aperture.glslp",
+      "bytes": 72,
+      "sha256": "+N09HEDpRiVYAjeNit/CKMV4VJclVnddQU5dY4WEgDg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-caligari.glslp",
+      "bytes": 72,
+      "sha256": "hDgmczngvEF5nRshXDeTSZAis1V/l0OQcmKwKFMbl5s="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-cgwg-fast.glslp",
+      "bytes": 73,
+      "sha256": "QOkzhSOuFaCJ5GYAmNrBRMDZ5RTQDvASb+dGzfARzJA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-easymode-halation.glslp",
+      "bytes": 926,
+      "sha256": "ttSTGAOylQ1Wo9anLqfZZfUoqBvqKc+gEkfmBcmBFG4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-easymode.glslp",
+      "bytes": 72,
+      "sha256": "l+f//IMwYiYyyC4HDUSaD1zMng6CS/pwEDWlFdpUwfE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-geom.glslp",
+      "bytes": 68,
+      "sha256": "mTJw5IZg0FgA37hV2NGpurTkBf5qJrNOglhBRNndkmU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-hyllian-3d.glslp",
+      "bytes": 98,
+      "sha256": "6lrftZYOkzr/9kS30RB8yK6BFV4nQq/KVfHCUvAlhiA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-hyllian-glow.glslp",
+      "bytes": 642,
+      "sha256": "9LR2TgVg4GZucP7Y4y4cKl8c3c/UlOTaFa3NR/xEjS8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-hyllian-multipass.glslp",
+      "bytes": 315,
+      "sha256": "JiCHnz0r+exIDS/1QLioBsCeJ5AZZLDvyFXtJOflFD4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-hyllian.glslp",
+      "bytes": 96,
+      "sha256": "oqkfVmHkRJvmACkdGWUYTrqmsXGB6G/XZkt/Vx0Biro="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-interlaced-halation.glslp",
+      "bytes": 788,
+      "sha256": "S57UFUFWk0hoAgUb8v40RudGbPM4tljc0XDBOaEcfBs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-lottes-fast.glslp",
+      "bytes": 74,
+      "sha256": "rZSKjcUsYKpLXD+wUEbX4bQd5yZZef+Uq1LPXTl1qfY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-lottes-multipass.glslp",
+      "bytes": 202,
+      "sha256": "yogOW8nqjEIa7SqckmIZO6kwWQx3JsXcdDagNlo6JjY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-lottes.glslp",
+      "bytes": 70,
+      "sha256": "KhwxgOoTSnyV8ZB0WsVC3R/rmWi51BlU1Dn1uxsYXuw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-mattias.glslp",
+      "bytes": 70,
+      "sha256": "xrkBYbC4kfSvo17Kxvbd1APtLkZspdwq7SeE2VApeEo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-nes-mini.glslp",
+      "bytes": 49,
+      "sha256": "8rUaU1s564OA/0sl2SQm8WwPC5HnlffDttLpHA0vu7s="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-pi-vertical.glslp",
+      "bytes": 203,
+      "sha256": "JzSbR0/Eb+y0D5ECpxvTUYJt9iOweEYHNkCssIrrdgs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crt-pi.glslp",
+      "bytes": 194,
+      "sha256": "p83JcQs/AHlIodAudJstXqQM6dYF5eI8JF/LrmDB/nk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crtglow_gauss.glslp",
+      "bytes": 766,
+      "sha256": "dZXWCLJ6f05bWXNLYxyo4ItUp9SdDHgnfvukY+ZfR00="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crtglow_gauss_ntsc_3phase.glslp",
+      "bytes": 1014,
+      "sha256": "pSdTfSolzsG61V6N+HBhLO3GJlmP4zqo1DkSbh9b9dg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/crtglow_lanczos.glslp",
+      "bytes": 766,
+      "sha256": "8xDgkeFtMmk36ABAhbPiMY4gP22KjOkBhOP7Wl9TyIY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-aperture.glsl",
+      "bytes": 6732,
+      "sha256": "18IMlyrgzZeQKA2KBw8b2Wu0udkLRxipTGKWpYzB+B4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-caligari.glsl",
+      "bytes": 5880,
+      "sha256": "igTrh+dM6viHdhdClJk7L9RyDM9eQy9ZY9O36bqK1Cg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-cgwg-fast.glsl",
+      "bytes": 5548,
+      "sha256": "DS9F13y0qaLmTanknb6I1bOmtO/rlsJQbfOZcOw89Uk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode-halation/blur_horiz.glsl",
+      "bytes": 2308,
+      "sha256": "L1lt6Gwe54/98SqbwL42eBs6wZmusLUSvhF23owUT2Q="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode-halation/blur_vert.glsl",
+      "bytes": 2188,
+      "sha256": "dMiGPVF2a0yWqmGLPf3ImNKwsWEEVwDfCVqMlXwGHEM="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode-halation/crt-easymode-halation.glsl",
+      "bytes": 11405,
+      "sha256": "7i+l8JqKjWoiZnIPeN+hCKAb0uEQqKi98ADC4wP74Gc="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode-halation/linearize.glsl",
+      "bytes": 2090,
+      "sha256": "mjGP9IJwPJ1LFzlNxLsvna/JkhPjE6Nnedb3Oi83y+M="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode-halation/threshold.glsl",
+      "bytes": 2083,
+      "sha256": "5Pe1pwCjq2lakdAZHViUwLUH23deD3H5hyQA2o0D10o="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-easymode.glsl",
+      "bytes": 8264,
+      "sha256": "7Se6tGDFPZj89yczMhDeDXRslXyGRjAo2MDkwV4p86s="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-geom.glsl",
+      "bytes": 15578,
+      "sha256": "DKH/+8MXY25HuOvoRoaX5AgDwmRbDB3GNWCxYNSblZA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian-3d.glsl",
+      "bytes": 9554,
+      "sha256": "/yLCBWOVbJqjet/zZrmKJNC2A9+Iyj63SZYqXdTo0+E="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian-glow/crt-hyllian.glsl",
+      "bytes": 9866,
+      "sha256": "RPxtD/F6CNj79wa1Z3HASiD9JTqfctrlfqzS/xNOCJE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian-glow/resolve2.glsl",
+      "bytes": 2935,
+      "sha256": "8W+DGd1JyO3jPk98SfKGR+rw8l/dL3HWONcew/167aY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian-multipass/crt-hyllian-pass0.glsl",
+      "bytes": 5323,
+      "sha256": "duMXxLjMynrBgzsm7fLXhVgzhhrF7FaZhdnMxvaQm0E="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian-multipass/crt-hyllian-pass1.glsl",
+      "bytes": 5366,
+      "sha256": "ntNMmMcf54FDqfMWxA9yY+usVjTlWx2OMNfcJcjeN8Y="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-hyllian.glsl",
+      "bytes": 8431,
+      "sha256": "UJ/xmn9n9tDePue5qqE8D8Q5L5wGvLi091iZ4mAL75g="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-interlaced-halation/crt-interlaced-halation-pass0.glsl",
+      "bytes": 3904,
+      "sha256": "skx4rb22C9ahajzzMKzS8aXon/S3umtE5kpN06B8rFU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-interlaced-halation/crt-interlaced-halation-pass1.glsl",
+      "bytes": 3880,
+      "sha256": "zsd1Z0bF5Q5g0rbGiw0j5hcId6dmD1ji409KWUxtMBo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-interlaced-halation/crt-interlaced-halation-pass2.glsl",
+      "bytes": 16620,
+      "sha256": "K6fTETyIECPzsDuXdy9ECT849iWSNAOaR/8f/YtFEhU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-lottes-fast.glsl",
+      "bytes": 26208,
+      "sha256": "VRTt54/a8ml7bQ8VdzUUqqRk8ggs6s8zpNAzcADrzGE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-lottes-multipass/bloompass.glsl",
+      "bytes": 10003,
+      "sha256": "75Gp5AILI1DSr6EFOEcmBJNeTiTUDQF8ETUCg2X8p1o="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-lottes-multipass/scanpass.glsl",
+      "bytes": 11444,
+      "sha256": "R5ShTqGdNA9kQnpZUT/AEYF3oauJzhCgvfXgVmxn4nA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-lottes.glsl",
+      "bytes": 11356,
+      "sha256": "aZqUf8J0Trfi3ErbLAiot04xaFuqd8vB+s6VkxBrV+8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-mattias.glsl",
+      "bytes": 7042,
+      "sha256": "tt5LOpUWYml4JuhkMD6Rg1w4tkXp0G8JOql8F6k3wIM="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-nes-mini.glsl",
+      "bytes": 2761,
+      "sha256": "fFtU7G2wzEvxkeH6mSHGI8KUaH5W+upLAHlblli4Nsw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-pi-vertical.glsl",
+      "bytes": 7519,
+      "sha256": "XWQwfbgeWh1fnX8S5V3mWs9vEoQu9rRUE1l9OSwpUKI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/crt-pi.glsl",
+      "bytes": 7258,
+      "sha256": "u3MH2Ki9tAX+zLu/78KSW5mYYnqM1aE+SqoH8tLQBmo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/blur_horiz.glsl",
+      "bytes": 2250,
+      "sha256": "jXqbU1uf+PRCeWgKYn+aA6BUjJOMt6zZQV1W2A9LkBo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/blur_vert.glsl",
+      "bytes": 2226,
+      "sha256": "nRJLxN/eyHa6/rBoZMKrVw8SaocBplaRQlUKOXJ3nKU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/gauss_horiz.glsl",
+      "bytes": 3100,
+      "sha256": "TgiDqXsjO8D/A3Zks8vR8ia5CaJdc5CusJ2kb/fpv7E="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/gauss_vert.glsl",
+      "bytes": 3524,
+      "sha256": "Sj8b8r4SboIAG67TTFnd4JLOYGO9oF71LzBkkh8azLs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/lanczos_horiz.glsl",
+      "bytes": 3153,
+      "sha256": "u5VgCxJ+fbF+P5o7x0dq9leZbCiikmzUhKZl5S5iszg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/linearize.glsl",
+      "bytes": 2127,
+      "sha256": "TxR+MR+WHIqrQsCrGwJ21tYzLpGvkPuaKsV8J8tdbt0="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/resolve.glsl",
+      "bytes": 2611,
+      "sha256": "fr5QQ/Ws9sizUdURIThGc+hM/FISeb9ANEbQ2GMasXE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/crt/shaders/glow/threshold.glsl",
+      "bytes": 2344,
+      "sha256": "oeOoclfU3llQYJLb400wIBxQiz/evYHhm1ZFwCVERT0="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/bicubic.glslp",
+      "bytes": 66,
+      "sha256": "/RaqOTZo4K8pnpE9gmY0jji3p8c8HeRmeGyHdmMQF+I="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/cubic-gamma-correct.glslp",
+      "bytes": 197,
+      "sha256": "o+VwtcgYcyaaOM91OLVVglixCTypx8tEU7nU37jmEjg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/cubic.glslp",
+      "bytes": 65,
+      "sha256": "X2utb/QOGPuOtLe3uuL+e9fH4AWsmyQZiTc0g2OVCWA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/shaders/bicubic.glsl",
+      "bytes": 5044,
+      "sha256": "c9vNlb7vbbHe9Joxxo6Fl8RNFSNlWAePEYXbQnaNIIw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/shaders/cubic-gamma-correct.glsl",
+      "bytes": 3325,
+      "sha256": "V2BNpvvLwcR9FjVgiu0tA/152bGzJ2WYIoMLsNZ3nvw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/shaders/cubic.glsl",
+      "bytes": 3202,
+      "sha256": "YKQh7k9hNDDFmLItYeO3oNTjA70VlsEr3pKOTCGL8uU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/cubic/shaders/linearize.glsl",
+      "bytes": 1890,
+      "sha256": "jZU0cAY8cfa78a3tEL1wMPVAWFtJ5AMxiPhJBThs4BQ="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/eagle/shaders/supereagle.glsl",
+      "bytes": 6901,
+      "sha256": "8R6hH/7OncCvpZuQX1OI31+zpQ0qCBOpLvdtqdAVW80="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/eagle/super-eagle.glslp",
+      "bytes": 168,
+      "sha256": "V7RYl5mc/AsxBmka9bfBYAHgOfnEuN2YojLSJjMzoBY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/aann.glslp",
+      "bytes": 62,
+      "sha256": "qE6IQxo8u5n2gJJTwlU7uBzPvS5AXUsykUZWpO/kMl4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/bandlimit-pixel.glslp",
+      "bytes": 193,
+      "sha256": "18181R8BPZBHpA68IsYmkt3Up3W8IaDsJQGNuAA9qUw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/controlled_sharpness.glslp",
+      "bytes": 78,
+      "sha256": "wEkRTpmv/HXHPT71vTWRPd6TK0436eL7h+cue1US1GU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/pixellate.glslp",
+      "bytes": 68,
+      "sha256": "ylZBSZR2Sj2MCinfa4y5gZAMvOHgjs83cbWXWOdfTXY="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/quilez.glslp",
+      "bytes": 64,
+      "sha256": "yOBUc1f4VAXnbNyvJfT3GuST+weKupOmyHxuGxA8CRU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/ControlledSharpness.glsl",
+      "bytes": 2622,
+      "sha256": "qGTVO6e0SzLpIfhyXiubgdNVo/6L44MR87Tbao3BCMI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/aann.glsl",
+      "bytes": 7029,
+      "sha256": "zHh4OpKlbK6C/I1ZX65wTpXr/hWP483g9bjPWDFY3WA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/bandlimit-pixel.glsl",
+      "bytes": 7319,
+      "sha256": "YECrqFMdiPzAKOo7FFaZKn2vMxIzsRd+ERiiofrGgyU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/pixellate.glsl",
+      "bytes": 4942,
+      "sha256": "1k+DejV+gWTN0bKzUVwQIssl7+Zg16/ep/+MohgbAyc="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/quilez.glsl",
+      "bytes": 2437,
+      "sha256": "mAFpPCEjN6ccW29QyElTUDpKohw5qPI4gBMKY0s1Arc="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/sharp-bilinear-scanlines.glsl",
+      "bytes": 4437,
+      "sha256": "mlZUYZFzJQJEdwUlVrpZ5DJ4KjJE7Hb9UaAeS8g6A6k="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/sharp-bilinear-simple.glsl",
+      "bytes": 3247,
+      "sha256": "Lvl5kad0ktl7ccw1n8wmxlN8G7tkT+YbFXLQv8RgOMk="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/sharp-bilinear.glsl",
+      "bytes": 3286,
+      "sha256": "m5r6kf4SvL1JOYF5vyByzlo4tTHDmk/TgekmAsbcEUs="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/smootheststep.glsl",
+      "bytes": 2814,
+      "sha256": "9P2Q3edYx5svtVlEaNHQmw+qaz3jh9rJykncGDsU6Jg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/shaders/smuberstep.glsl",
+      "bytes": 2457,
+      "sha256": "0y3KJ8wluMHOWygKSK4xs+KJWd2AY9MLStErkxgCExw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/sharp-bilinear-2x-prescale.glslp",
+      "bytes": 138,
+      "sha256": "B+GtiMIG2FEjIqnE3/whsTiiViDPe0IHiJF0V5fUZv0="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/sharp-bilinear-scanlines.glslp",
+      "bytes": 83,
+      "sha256": "8i8s/cqTyHHrQEjql2H5AqS7Fhr0T3DM4m6JLj3HFks="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/sharp-bilinear-simple.glslp",
+      "bytes": 79,
+      "sha256": "awjJhVdFTq5BMdgWm7o5txT0oReq6vUxSpNnPX5E/TA="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/sharp-bilinear.glslp",
+      "bytes": 72,
+      "sha256": "vWwA460+OTH4bOESXGq+YDGQgkTamIuhLqd6f9FdjBE="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/smootheststep.glslp",
+      "bytes": 71,
+      "sha256": "r2vszbQD/mPRalGfiH1saNtEt/CeI2f+PbC6sGGE2X4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/interpolation/smuberstep.glslp",
+      "bytes": 69,
+      "sha256": "cMuKDE5TvXBNBk0Vzmc3bsCgxwSMnMfjrpv42xf19XI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/nearest.glslp",
+      "bytes": 57,
+      "sha256": "ozjOWh+PZdn4Ak5LpD8nFQLolA2fcdQwiGcTyxXXnvc="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/scalefx+rAA.glslp",
+      "bytes": 866,
+      "sha256": "pbgUXwyQ0Gb+2JZCum6nzcN5NqmrFzXRpeGwJ9PbitI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/scalefx-hybrid.glslp",
+      "bytes": 586,
+      "sha256": "Mj5FF0DOBihAlMZDQ1OFI/NTDWYj+27MnZpqejW2VmI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/scalefx.glslp",
+      "bytes": 539,
+      "sha256": "n4SUzgksPXodasPQGOfbQteUVcF8LurKfCZTnJZdsG0="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass0.glsl",
+      "bytes": 4493,
+      "sha256": "Oa2DvH/lScxrvd9AS1BbjwDTTjJsOZLTnCUMdoqn3lQ="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass1.glsl",
+      "bytes": 5307,
+      "sha256": "aTDPBFibSm9FeXkF8jerLPCjVtZlctVcy46XnwoNpc8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass2.glsl",
+      "bytes": 7884,
+      "sha256": "7E9qu8QZtndI4hQqalcXRXOj+q+WLRXyv186Jk6Jh+Q="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass3.glsl",
+      "bytes": 10673,
+      "sha256": "w56K45bqmb9niD1Y0mf1GVZ3cZpgfeHq6GTt7HW1M+I="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass4-hybrid.glsl",
+      "bytes": 6386,
+      "sha256": "6o8IkWP48PSm22+zZ5SqkNCq34f89ITBpARDNu/s0No="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalefx/shaders/scalefx-pass4.glsl",
+      "bytes": 5227,
+      "sha256": "ZBkrK9mlkImuob5vmGiJa5FD/uh2nC4DbJ8jUxpy+W8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalehq/2xScaleHQ.glslp",
+      "bytes": 105,
+      "sha256": "mbv6mNMgnPX1usdiT4kKFJkec4sgcNYzXq+4iDIVNvg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalehq/4xScaleHQ.glslp",
+      "bytes": 105,
+      "sha256": "wlwxX+4h/1mkWa9qmZSVF+gL5YyL4jgWac9Rq+3bh4I="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalehq/shaders/2xScaleHQ.glsl",
+      "bytes": 4912,
+      "sha256": "wahYu3oCMNaaD3z1OuHpCUh/HVg0Ld80cZ6EmhCAX3Y="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/scalehq/shaders/4xScaleHQ.glsl",
+      "bytes": 5399,
+      "sha256": "TpMztJHMNXCP99+MX+ytRj8+hu8ENRhJ9Tve/T/NEUw="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/stock.glsl",
+      "bytes": 1655,
+      "sha256": "huV9NZBLzXcplybLZaI6aH0o47OvEq2VGwpEUOzBc4s="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/4xbrz-linear.glslp",
+      "bytes": 146,
+      "sha256": "uGBJUjnDxQ9SGd5IMqAQ6UNu742fWk0F5VBgFxExkrg="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/5xbrz-linear.glslp",
+      "bytes": 146,
+      "sha256": "xtgR4uuLx60qgVOoKMdR4fMsSDTgAmwSQZtssRE/c8M="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/6xbrz-linear.glslp",
+      "bytes": 146,
+      "sha256": "u0vaTh6uJGUWKu1XHWOo55nBzEXz55fH9BqX2jrXMAo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/4xbrz.glsl",
+      "bytes": 20526,
+      "sha256": "iYFOlMf/lxYkFX1XwAuH8fDD2wrLp3iBPYzoDLiEaCI="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/5xbrz.glsl",
+      "bytes": 23173,
+      "sha256": "q1lxRiUjX/78vI4f0OhoWE9wAFH4EYj6uOgqgqo/sF4="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/6xbrz.glsl",
+      "bytes": 25874,
+      "sha256": "6klvgdQRQZQCfWgQR8NnyvZZY/wPBFFVKhJBX22pr20="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/xbrz-freescale-multipass/xbrz-freescale-pass0.glsl",
+      "bytes": 12553,
+      "sha256": "uzMmLaqMugYCb+Cbqyop1gtOibS5ZtYkGqq8n4xeZAo="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/xbrz-freescale-multipass/xbrz-freescale-pass1.glsl",
+      "bytes": 8884,
+      "sha256": "h4XxT3BKTOSmRMXjQXTsz3XdWPhQI6qcbv3oiVan9k8="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/shaders/xbrz-freescale.glsl",
+      "bytes": 14441,
+      "sha256": "Svfgry1l9vk+Yi7Ib7bkbmbyO6bkxABCH/TWLCw4NeU="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/xbrz-freescale-multipass.glslp",
+      "bytes": 268,
+      "sha256": "y2IL9oYZ+J9IsxeBENz+ire54T0rt8NVxZcue01+EXc="
+    },
+    {
+      "path": "emulator/bundle/shaders/shaders_glsl/xbrz/xbrz-freescale.glslp",
+      "bytes": 110,
+      "sha256": "yjKqk94TDb4UpkP5vw7QMsCIolxQp9C48jroy9kNbPA="
+    },
+    {
+      "path": "emulator/cores/a5200_libretro.js",
+      "bytes": 208214,
+      "sha256": "3HGaH3dJLdD8i68pk85xk1ABNbbP6tkNBfsnEsIivLY="
+    },
+    {
+      "path": "emulator/cores/a5200_libretro.wasm",
+      "bytes": 2003624,
+      "sha256": "gxPY8XwB140993nK2yn7wEeSY4SAi51K4fh6jVn4q8o="
+    },
+    {
+      "path": "emulator/cores/freechaf_libretro.js",
+      "bytes": 208217,
+      "sha256": "KrGFGVAzHhRmrs0Yy7wrX5vv4bPwiaK8N1HCG/r+Fz4="
+    },
+    {
+      "path": "emulator/cores/freechaf_libretro.wasm",
+      "bytes": 1898030,
+      "sha256": "rN2UGCHgXDvcShXqRwLg/YpXVor/BXy0yBmugI7AcoY="
+    },
+    {
+      "path": "emulator/cores/freeintv_libretro.js",
+      "bytes": 208217,
+      "sha256": "p4ZZY4FYHVVJIUbeu7kDlWxAPzOMLkir7b1qIODohDA="
+    },
+    {
+      "path": "emulator/cores/freeintv_libretro.wasm",
+      "bytes": 1938479,
+      "sha256": "e/0aCmHkx9OcMFGhJX60XomzzFYeiH+0dTeoLkd4uXI="
+    },
+    {
+      "path": "emulator/cores/gearcoleco_libretro.js",
+      "bytes": 210406,
+      "sha256": "GrYKxzIcD40Nem7OvWL0jO4Yb6tZ5xvN34GXn/juu1I="
+    },
+    {
+      "path": "emulator/cores/gearcoleco_libretro.wasm",
+      "bytes": 2090611,
+      "sha256": "sTWwGnhQXPvN5n6OhRVDc64ETszy5FJCbSbn4DrfyPs="
+    },
+    {
+      "path": "emulator/cores/genesis_plus_gx_libretro.js",
+      "bytes": 208224,
+      "sha256": "q6w3PjD+RTgM+ZN0UHmZVLnvSKg8HO8gayN/yXCl4mc="
+    },
+    {
+      "path": "emulator/cores/genesis_plus_gx_libretro.wasm",
+      "bytes": 4370575,
+      "sha256": "hNurFvfW7UwaMqo4d7VOvIz31SoMMBa60DDAf6d9Lqk="
+    },
+    {
+      "path": "emulator/cores/handy_libretro.js",
+      "bytes": 208214,
+      "sha256": "jeBrMrh+sWI0rjzZfj/7HS+K4Em7MGt76uGy8pK5qSo="
+    },
+    {
+      "path": "emulator/cores/handy_libretro.wasm",
+      "bytes": 2001335,
+      "sha256": "tubOzJBd5rBFq5lUwIBRfja65DAgGg76HhevB79v9/8="
+    },
+    {
+      "path": "emulator/cores/mednafen_ngp_libretro.js",
+      "bytes": 210311,
+      "sha256": "WWoNnsg7rffvylQSuBTAlyVgXHkn1I09ve2b99xpb0A="
+    },
+    {
+      "path": "emulator/cores/mednafen_ngp_libretro.wasm",
+      "bytes": 2081996,
+      "sha256": "jT5rPyTcbHm1L+Mn7LaEEbqCrzIPiIQU/7D7Pxi9OQc="
+    },
+    {
+      "path": "emulator/cores/mednafen_psx_hw_libretro.js",
+      "bytes": 241493,
+      "sha256": "xRaXz3a84rPupANKcqjHXBOOWr7tBRzM2DEWRUirwLI="
+    },
+    {
+      "path": "emulator/cores/mednafen_psx_hw_libretro.wasm",
+      "bytes": 5074868,
+      "sha256": "Z+f6tjUMKu1LhuKwrApEqSwjBPojTpyovaYeo5vIn9k="
+    },
+    {
+      "path": "emulator/cores/mednafen_vb_libretro.js",
+      "bytes": 210310,
+      "sha256": "fmMZAXYeej/ZSMXp9GdlekgI7RBK8b8AaguR0ja5PB8="
+    },
+    {
+      "path": "emulator/cores/mednafen_vb_libretro.wasm",
+      "bytes": 1971196,
+      "sha256": "cfuuBlTs+Q9Ygf1uHF6PCwxMycLeNharfSvzS5y051s="
+    },
+    {
+      "path": "emulator/cores/mednafen_wswan_libretro.js",
+      "bytes": 211018,
+      "sha256": "WUxHJUgcds8Er5cvRfCebncMMCg2UBhB1opwX/zlki8="
+    },
+    {
+      "path": "emulator/cores/mednafen_wswan_libretro.wasm",
+      "bytes": 2027273,
+      "sha256": "vRXpXLabdSCNAE7nnW+/mi13o8M2hQe3o3HdAx42q+A="
+    },
+    {
+      "path": "emulator/cores/melonds_libretro.js",
+      "bytes": 212151,
+      "sha256": "bblxDRXT176DfTgEuXn0Ad/7ZTVtYPDKduhCpZZ7Z/g="
+    },
+    {
+      "path": "emulator/cores/melonds_libretro.wasm",
+      "bytes": 3047134,
+      "sha256": "FHVZcjJ3hcT0Igi5iLZ6BVjaR2lfRou3S7eq9nh5rAg="
+    },
+    {
+      "path": "emulator/cores/mgba_libretro.js",
+      "bytes": 210232,
+      "sha256": "hDeeI4X5Oza+lhflFGfPLpCHaOm/wsUTxuPpNBTE5xQ="
+    },
+    {
+      "path": "emulator/cores/mgba_libretro.wasm",
+      "bytes": 2716740,
+      "sha256": "AFasrwV83x7pd4owAVK6ci11jzZ1pqOU1V1aZmUji6U="
+    },
+    {
+      "path": "emulator/cores/mupen64plus_next_libretro.js",
+      "bytes": 255434,
+      "sha256": "iQ4kD9ZHL5posi81BR0VWxi+1hD3itrm9g6s/2Vvj+s="
+    },
+    {
+      "path": "emulator/cores/mupen64plus_next_libretro.wasm",
+      "bytes": 6154600,
+      "sha256": "ov2vmjp9+RL44+ep9PGPAES33rQusJZGrTbECbFCJvg="
+    },
+    {
+      "path": "emulator/cores/neocd_libretro.js",
+      "bytes": 208449,
+      "sha256": "1RK9Hj66kLMxCpospCuP0bBgFrVMWUqlr5aYaviCliU="
+    },
+    {
+      "path": "emulator/cores/neocd_libretro.wasm",
+      "bytes": 2917616,
+      "sha256": "pY47LOR855GrFC/Pvnp9TGH+nAocDCudv3fYh81K7DM="
+    },
+    {
+      "path": "emulator/cores/nestopia_libretro.js",
+      "bytes": 210404,
+      "sha256": "ek9vD/jRzRg/deqt8YKi/BmPK8K3N4Zwo03ivqPsJ+c="
+    },
+    {
+      "path": "emulator/cores/nestopia_libretro.wasm",
+      "bytes": 3817357,
+      "sha256": "20T51yCeCtoGKA7WrkyAjQlz1mFnQGgAewd9AtOWwo4="
+    },
+    {
+      "path": "emulator/cores/o2em_libretro.js",
+      "bytes": 208213,
+      "sha256": "/IBdJtrYICeEz+4CCCHgjJm3Qr3FfaXXXpJpKwPgjmU="
+    },
+    {
+      "path": "emulator/cores/o2em_libretro.wasm",
+      "bytes": 2047760,
+      "sha256": "yfsKFVx5Ad86DNkBzpajsT9L8ti0ns6bJfiHhKu2K34="
+    },
+    {
+      "path": "emulator/cores/opera_libretro.js",
+      "bytes": 208214,
+      "sha256": "4rGHn0WxlEZaE9qylvcZnkXAtVZRPLt2QdthzjKosFU="
+    },
+    {
+      "path": "emulator/cores/opera_libretro.wasm",
+      "bytes": 1959218,
+      "sha256": "/DhoZxZxU4a9GwWNIK/mEePj8q3KK5+2/B970/9bM88="
+    },
+    {
+      "path": "emulator/cores/parallel_n64_libretro.js",
+      "bytes": 246886,
+      "sha256": "4wDYXzx+siH0+4yk9DmKdUxC6whh2RkxXHn8AUwWSpI="
+    },
+    {
+      "path": "emulator/cores/parallel_n64_libretro.wasm",
+      "bytes": 3993836,
+      "sha256": "q++nduy9Z2DYR2FBGhiXljd8842FVmUvVVV/Dp1X2H4="
+    },
+    {
+      "path": "emulator/cores/prosystem_libretro.js",
+      "bytes": 208218,
+      "sha256": "hn4enJu5H9UCmKyI3Kyn5qYzDUYhFoRd7SudnAiUem8="
+    },
+    {
+      "path": "emulator/cores/prosystem_libretro.wasm",
+      "bytes": 1912524,
+      "sha256": "G4Ns6Ah6GLSC3eUkkKsJ1fcQ5EZ9jBU/fx9REOg8kG0="
+    },
+    {
+      "path": "emulator/cores/snes9x_libretro.js",
+      "bytes": 208450,
+      "sha256": "kA5SRxtMkKpiyIhXqWYwJ+QbRDGxZCdmjbyurkCvjWQ="
+    },
+    {
+      "path": "emulator/cores/snes9x_libretro.wasm",
+      "bytes": 4214155,
+      "sha256": "WUiwaVqhqnikvOg87jC2pK5HXiGu123VFFZYeXjTmQo="
+    },
+    {
+      "path": "emulator/cores/stella2014_libretro.js",
+      "bytes": 210406,
+      "sha256": "O2sFHHiI6QrjMe+a6x79Cbtz1x5mC5pwG1jar2hi0o8="
+    },
+    {
+      "path": "emulator/cores/stella2014_libretro.wasm",
+      "bytes": 2841302,
+      "sha256": "vzvFgZanap6nvq0GBl8p/ESNRKvsSXxEyoArM8zbsYw="
+    },
+    {
+      "path": "emulator/cores/vecx_libretro.js",
+      "bytes": 208287,
+      "sha256": "HnCLAqblZjuKh9F2sasb2WIQzwrj8B5Gj62FZhFy2pw="
+    },
+    {
+      "path": "emulator/cores/vecx_libretro.wasm",
+      "bytes": 1948083,
+      "sha256": "lCo5jeOnqqzvNNfK+onmEmTHqIvAM+MED3W5URqxkeo="
+    },
+    {
+      "path": "emulator/cores/virtualjaguar_libretro.js",
+      "bytes": 208222,
+      "sha256": "wlmIdN0fVrmOWp7HkmE19xWFMy5yB4PMrrMunUw8Fxs="
+    },
+    {
+      "path": "emulator/cores/virtualjaguar_libretro.wasm",
+      "bytes": 2571989,
+      "sha256": "CJKLVltUY1yYRcIARZlC6j0i6tGH6hLDZN+/mOQgRP8="
+    },
+    {
+      "path": "emulator/cores/yabause_libretro.js",
+      "bytes": 208365,
+      "sha256": "OX1J0ASgVPUOYip8o50JTbn2REj6EFc6Viv54VKYOF4="
+    },
+    {
+      "path": "emulator/cores/yabause_libretro.wasm",
+      "bytes": 2719316,
+      "sha256": "QLgwmfez4muSX5o8vos9+6ujZbdtxn0vAvP8Vc9Ohtg="
+    },
+    {
+      "path": "emulator/details.json",
+      "bytes": 6808845,
+      "sha256": "oDXF80m1VXVrrlZPR3nuGiscyzwxIgAldfgk5DBqYCM="
+    },
+    {
+      "path": "emulator/games.json",
+      "bytes": 5412091,
+      "sha256": "dNMaSUnZDco3WjwnvmOnSMLRdqzL++tlitWmkJn9kbc="
+    },
+    {
+      "path": "emulator/index.html",
+      "bytes": 13990,
+      "sha256": "bHddknUiZcHE0b7xJ3u56FVjbjtBAzwxkWgyILzLHbY="
+    },
+    {
+      "path": "emulator/legacy/data/bluemsx_libretro.js",
+      "bytes": 221404,
+      "sha256": "Z2khARPGJjXfYpjxtNHX+9+wHABlxuTc14skC6eS/yI="
+    },
+    {
+      "path": "emulator/legacy/data/bluemsx_libretro.wasm",
+      "bytes": 3014209,
+      "sha256": "jaYFpToQ7IsQoB8jK8orm8xG7dFRmDZ31NVSPq+zA7A="
+    },
+    {
+      "path": "emulator/legacy/data/frontend.zip",
+      "bytes": 3364985,
+      "sha256": "pvlcgDBHcjx1PpNQFM5XIvNnGYMHaFMNIWP1B1VRRmY="
+    },
+    {
+      "path": "emulator/legacy/data/genesis_plus_gx_libretro.js",
+      "bytes": 219160,
+      "sha256": "rd8jpNZQEFSKpvFTtaqHdbSSKNmQ5t67GzwbhEDTo3E="
+    },
+    {
+      "path": "emulator/legacy/data/genesis_plus_gx_libretro.wasm",
+      "bytes": 6652929,
+      "sha256": "RuZJMJkcz2U97qNmSYDlVZP1dVBX+28JOtBjY6BEnHQ="
+    },
+    {
+      "path": "emulator/legacy/data/mame2003_plus_libretro.js",
+      "bytes": 219158,
+      "sha256": "X7bUy/ufnxJqPVqjcp9lj3kUr7pImgdxlz1I5j/U0d8="
+    },
+    {
+      "path": "emulator/legacy/data/mame2003_plus_libretro.wasm",
+      "bytes": 28016317,
+      "sha256": "tey7gAl/hp65q4YPEcncc60djKQ4BMe9+G+C4upt0xk="
+    },
+    {
+      "path": "emulator/legacy/data/mednafen_pce_fast_libretro.js",
+      "bytes": 222330,
+      "sha256": "gpni7PxNwHqxHA0/dWrwmZwAU5qblY/orxgy0bLGKb4="
+    },
+    {
+      "path": "emulator/legacy/data/mednafen_pce_fast_libretro.wasm",
+      "bytes": 2274138,
+      "sha256": "HgID74nWl4PINlaldbsXibH27JsLYy4VJ2vQ+pPzqtQ="
+    },
+    {
+      "path": "emulator/legacy/data/snes9x_libretro.js",
+      "bytes": 219240,
+      "sha256": "nk5BYYCay4vEOS6RaQTN/Bza+vbMEb818xV+l39Nzhk="
+    },
+    {
+      "path": "emulator/legacy/data/snes9x_libretro.wasm",
+      "bytes": 6046241,
+      "sha256": "lkFZ2sO1YxPiBXxcB31gIVEf4fuANs6eSL2xz8mQAnM="
+    },
+    {
+      "path": "emulator/legacy/libretro.js",
+      "bytes": 281419,
+      "sha256": "JjHY+Ovv2AoVQQMz/HxUz67cYo5i9kG0BFIBJnxSL+E="
+    },
+    {
+      "path": "emulator/pwa.js",
+      "bytes": 81,
+      "sha256": "aO4uEb9qG6vN/kQ7ClHz9496jr8PcXWLfY0gnbZZf6M="
+    },
+    {
+      "path": "emulator/uauth/demo.html",
+      "bytes": 1694,
+      "sha256": "zwnVoTnbfkqspBIHqMW36cOifN/1tMJvwdHIwNfkBWs="
+    },
+    {
+      "path": "emulator/uauth/drive.html",
+      "bytes": 3622,
+      "sha256": "/YyIcd7gge+jkfr5DImo+2UcyuqMeKFg2MxMMCNb9Ao="
+    },
+    {
+      "path": "emulator/uauth/index.html",
+      "bytes": 2800,
+      "sha256": "+W0nOgxXbtbambvxZSZVyB/fSaQkol+TmASt+nBfNzw="
+    },
+    {
+      "path": "emulator/uauth/isolatedpicker.html",
+      "bytes": 4173,
+      "sha256": "HKNFKQkX8saMvKmpjSkVA7dMTj4+ic1ZB75wRB+GvhI="
+    },
+    {
+      "path": "emulator/uauth/popuppicker.html",
+      "bytes": 3163,
+      "sha256": "qDJ0GcO4gqnjOvuRhGIC1nfhaKMLehUsvdubjxxd3Qs="
+    },
+    {
+      "path": "emulator/uauth/receiver.html",
+      "bytes": 462,
+      "sha256": "Xwy/Eo/TfbvEYcE09Ah39b+TLpu5yT6+vZiuf3/kfEw="
+    },
+    {
+      "path": "emulator/uauth/tokens.js",
+      "bytes": 411,
+      "sha256": "9b60WkBDF64I2EUhsMhcYIRDzdJP6ZBDbGXgo1sSrlA="
+    },
+    {
+      "path": "emulator/uauth/uauth.js",
+      "bytes": 2919,
+      "sha256": "ofxKXrzmsqxy0p/eIZzwK4VBxSt1MI3QDZTZbK9Anpw="
+    },
+    {
+      "path": "emulator/wisp.mjs",
+      "bytes": 1992783,
+      "sha256": "HdB1M/V4UGlTCQy8KXhlRQH3BmhKxCc5NfwSRXOikIw="
+    },
+    {
+      "path": "seal-wisp.txt",
+      "bytes": 161,
+      "sha256": "qIFWKmOpRa9bhqTMGREEOZkMIIB9MIlln9q69jVdlc0="
+    },
+    {
+      "path": "sealjet/sealjet.api.js",
+      "bytes": 21480,
+      "sha256": "PO4/L5+snmyGlsx2lOsPwrwq9bQcoO+YolSADthofHY="
+    },
+    {
+      "path": "sealjet/sealjet.inject.js",
+      "bytes": 10858,
+      "sha256": "ejp4Bx36/MLV5//OBA/cVw1L1hlH0q3Em34G9MmYzNM="
+    },
+    {
+      "path": "sealjet/sealjet.js",
+      "bytes": 227131,
+      "sha256": "aVDGh/wtm24ff1yx/YtlQQZApmz1P0i+2qnVvRa+PB0="
+    },
+    {
+      "path": "sealjet/sealjet.wasm",
       "bytes": 586279,
-      "sha256": "yHQMNApQZobZ5G/rgolKtxDPV80gVk0AHQrvBDEGYeg="
+      "sha256": "CuNVtbllpho/0VmzbZn4aWfRPzq//ilpyXX7jG1c6mI="
+    },
+    {
+      "path": "sealjet/sealjet.wasm.js",
+      "bytes": 781826,
+      "sha256": "bqrVHyfIg1NzCBwbrIJb0ts5+ftvnrTCYU4JMWFVY6A="
+    },
+    {
+      "path": "sealjet/sealjet.worker.js",
+      "bytes": 9010,
+      "sha256": "dnFTYD7UWdMJLq0reafE02bdYNcqJmQOnluDEMRlcoc="
     },
     {
       "path": "source/embed.ts",
-      "bytes": 6573,
-      "sha256": "Tmoa6dWcVSEk9RRKFPNKBPrLV/f36T+DzofBo6sPepk="
+      "bytes": 6570,
+      "sha256": "3aJcoLLuufaqdv/ZZW3sET6LiLfnqhnHPtNyhHEDtPM="
     },
     {
       "path": "source/protocol.ts",
@@ -79,18 +1944,13 @@
     },
     {
       "path": "source/sw.js",
-      "bytes": 1217,
-      "sha256": "aOiledHKAaQroPfDJ5EZzHOAimQman+asgkTYmQoolg="
+      "bytes": 1211,
+      "sha256": "6sYq3qP5TnFiUVnfX0PdpvzuGTCO5jlAIIp8enDDQdM="
     },
     {
       "path": "sw.js",
-      "bytes": 1217,
-      "sha256": "aOiledHKAaQroPfDJ5EZzHOAimQman+asgkTYmQoolg="
-    },
-    {
-      "path": "wisp.txt",
-      "bytes": 161,
-      "sha256": "qIFWKmOpRa9bhqTMGREEOZkMIIB9MIlln9q69jVdlc0="
+      "bytes": 1211,
+      "sha256": "6sYq3qP5TnFiUVnfX0PdpvzuGTCO5jlAIIp8enDDQdM="
     }
   ]
 }

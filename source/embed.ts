@@ -17,7 +17,7 @@ interface RuntimeControllerConstructor {
   new (options: {
     serviceworker: ServiceWorker;
     transport: ReadyRuntimeTransport;
-    config: { prefix: string; scramjetPath: string; injectPath: string; wasmPath: string };
+    config: { prefix: string; sealjetPath: string; injectPath: string; wasmPath: string };
   }): RuntimeController;
 }
 
@@ -114,16 +114,16 @@ async function start() {
   setMessage("Starting secure browser runtime…");
   report("progress", { count: 2 });
   const worker = await activeWorker();
-  const controllerRuntime = (globalThis as { $scramjetController?: { Controller?: RuntimeControllerConstructor } }).$scramjetController;
+  const controllerRuntime = (globalThis as { $sealjetController?: { Controller?: RuntimeControllerConstructor } }).$sealjetController;
   if (!controllerRuntime?.Controller) throw new Error("Korona relay controller did not load.");
   const controller = new controllerRuntime.Controller({
     serviceworker: worker,
     transport,
     config: {
       prefix: runtimePrefix(),
-      scramjetPath: runtimePath("scram/scramjet.js"),
-      injectPath: runtimePath("controller/controller.inject.js"),
-      wasmPath: runtimePath("scram/scramjet.wasm"),
+      sealjetPath: runtimePath("sealjet/sealjet.js"),
+      injectPath: runtimePath("sealjet/sealjet.inject.js"),
+      wasmPath: runtimePath("sealjet/sealjet.wasm"),
     },
   });
   await controller.wait();
@@ -153,7 +153,7 @@ async function selectQualifiedTransport(
   let lastEndpoint = "";
   let lastError: unknown = new Error("Korona runtime could not select a relay.");
   const candidates = resolver.candidates();
-  if (candidates.length === 0) throw new Error("no Wisp endpoints are currently available");
+  if (candidates.length === 0) throw new Error("No Seal Wisp endpoints are currently available");
   for (const endpoint of candidates) {
     try {
       const transport = await createReadyTransport(endpoint);

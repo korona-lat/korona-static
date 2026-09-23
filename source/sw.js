@@ -1,13 +1,13 @@
 const BASE = new URL("./", self.location).pathname;
 
-importScripts(`${BASE}controller/controller.sw.js`);
+importScripts(`${BASE}sealjet/sealjet.worker.js`);
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (event) => event.waitUntil(self.clients.claim()));
 self.addEventListener("fetch", (event) => {
   try {
-    if (self.$scramjetController?.shouldRoute(event)) {
-      event.respondWith(self.$scramjetController.route(event));
+    if (self.$sealjetController?.shouldRoute(event)) {
+      event.respondWith(self.$sealjetController.route(event));
       return;
     }
   } catch {
@@ -23,7 +23,7 @@ async function reviveRoute(event) {
   for (const client of clients) client.postMessage({ $controller$swrevive: {} });
   for (let attempt = 0; attempt < 320; attempt += 1) {
     try {
-      if (self.$scramjetController?.shouldRoute(event)) return self.$scramjetController.route(event);
+      if (self.$sealjetController?.shouldRoute(event)) return self.$sealjetController.route(event);
     } catch {
       void 0;
     }
