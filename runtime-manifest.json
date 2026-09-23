@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "buildId": "korona-f05419a0ff9fad33",
+  "buildId": "korona-4e7557947a11d7e8",
   "files": [
     {
       "path": "LICENSE",
@@ -18,6 +18,11 @@
       "sha256": "XvXycY4eQmaw2A9VyFmrcXpZLVnS+GwS3yT4SDlcMXg="
     },
     {
+      "path": "assets/index-DOyCiNlp.js",
+      "bytes": 1992681,
+      "sha256": "Dn5jsIOkl+7ddd5wUofuUDn98K4GlCGiUfBAfco+h58="
+    },
+    {
       "path": "embed.css",
       "bytes": 1205,
       "sha256": "xWlbS/KhayRURDpfbn0tdMPUAPQKz848EH6TxS7oWNI="
@@ -29,8 +34,8 @@
     },
     {
       "path": "embed.js",
-      "bytes": 11675,
-      "sha256": "hyTutNpihVCjyD7xk2YE9gdmdAyf3j8H/LnvM7VxoAk="
+      "bytes": 11669,
+      "sha256": "XV7a8+4NNFSK4Xd8zUt9VbW8A96WxtQ8tiC6o6h58HQ="
     },
     {
       "path": "embed.svg",
@@ -1894,8 +1899,8 @@
     },
     {
       "path": "emulator/wisp.mjs",
-      "bytes": 1992783,
-      "sha256": "HdB1M/V4UGlTCQy8KXhlRQH3BmhKxCc5NfwSRXOikIw="
+      "bytes": 1995603,
+      "sha256": "gUJncN084nOYLlm4WtqqNeoBakD9lUKbhslQ5PGe9zM="
     },
     {
       "path": "seal-wisp.txt",
