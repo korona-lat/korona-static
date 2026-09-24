@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "buildId": "korona-4e7557947a11d7e8",
+  "buildId": "korona-133765cefc940e48",
   "files": [
     {
       "path": "LICENSE",
@@ -34,8 +34,8 @@
     },
     {
       "path": "embed.js",
-      "bytes": 11669,
-      "sha256": "XV7a8+4NNFSK4Xd8zUt9VbW8A96WxtQ8tiC6o6h58HQ="
+      "bytes": 11739,
+      "sha256": "iOKJ5yvtH6DGVQ+J0l50wGYWxlQns1NnlWOT03lRDrQ="
     },
     {
       "path": "embed.svg",
@@ -1904,8 +1904,8 @@
     },
     {
       "path": "seal-wisp.txt",
-      "bytes": 161,
-      "sha256": "qIFWKmOpRa9bhqTMGREEOZkMIIB9MIlln9q69jVdlc0="
+      "bytes": 7533,
+      "sha256": "zt0uAJxejnGx6PvHYdHj74jmjDm7uBJJ36zyDN7n3xU="
     },
     {
       "path": "sealjet/sealjet.api.js",
@@ -1944,8 +1944,8 @@
     },
     {
       "path": "source/protocol.ts",
-      "bytes": 2978,
-      "sha256": "/cgDCzUP3228Yb1FBteK5MMnpFfgn3n2yDGM0TgeNbU="
+      "bytes": 2979,
+      "sha256": "Tun08DiQdoof5VcNqGeksUBtuIX/hlFFDSaDm3YY9vE="
     },
     {
       "path": "source/sw.js",

@@ -30,7 +30,7 @@ export function parseRuntimeLaunch(search: string, injected?: RuntimeLaunchInput
       apiOrigin = api.href.replace(/\/$/, "");
     }
     const endpoints = parseEmbeddedWisps(wisps.filter((value): value is string => typeof value === "string").join("\n"));
-    if (endpoints.length === 0 || endpoints.length > 64) return null;
+    if (endpoints.length === 0 || endpoints.length > 256) return null;
     return { target: destination.href, wisps: endpoints, apiOrigin };
   } catch {
     return null;
